@@ -25,6 +25,7 @@ if flash
     shader_set(shd_hit)
     draw_self()
     shader_reset()
+	draw_self()
 }
 else
    draw_self()
