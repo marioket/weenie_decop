@@ -33,7 +33,7 @@ if (global.player_corndog == 0)
     {
         if (dashAnim == 1)
         {
-            if (floor(image_index) == 0)
+            if /*(floor(image_index) == 0)*/ !instance_exists(obj_attackhitbox)
             {
                 with (instance_create(x, y, obj_attackhitbox))
                     image_xscale = other.image_xscale

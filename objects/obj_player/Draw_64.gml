@@ -1,3 +1,4 @@
+display_set_gui_size(960, 540)
 with (obj_player)
 {
     if (show_gui == 1)

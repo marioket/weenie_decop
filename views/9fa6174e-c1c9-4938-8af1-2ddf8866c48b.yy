@@ -38,7 +38,14 @@
         "cdf3bf2c-8ee9-482e-838f-33070a9f192b",
         "1a1dd5cf-3374-4164-816a-fce4465b9262",
         "ae8d168e-ce3e-4da2-978d-26936fa40b51",
-        "4294b644-7074-475b-9d6f-7205d615528f"
+        "4294b644-7074-475b-9d6f-7205d615528f",
+        "d97bdce1-7d66-4845-a23a-3d1ec57d1b6c",
+        "751aa77a-d8f1-4977-94ba-ce2f775047b0",
+        "99eaca59-f5bc-4b6d-882f-51ff10bcd351",
+        "c9928252-96cc-4df5-80d5-697f0d0b2a01",
+        "43e7b5f4-7d2d-45ba-8971-8d160957d006",
+        "7af6ed91-772c-465d-b5f1-7a2c462fdc0e",
+        "3bbcc47e-21a4-41b3-b147-bc9275b908ea"
     ],
     "filterType": "GMSprite",
     "folderName": "player",
