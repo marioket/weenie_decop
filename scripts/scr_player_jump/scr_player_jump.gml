@@ -102,7 +102,7 @@ if (key_attack && (!key_up) && (!key_down) && double_jump == 0)
             if (dashAnim == 1)
             {
                 scr_sound(6)
-                sprite_index = choose(125, 124, 123)
+                sprite_index = choose(spr_player_attack1, spr_player_attack1, spr_player_attack1)
             }
             else if (dashAnim == 0)
                 sprite_index = spr_player_dashattack

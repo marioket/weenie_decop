@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_backgroundmoving",
     "eventList": [
-        
+        {
+            "id": "9b2dc862-3cd4-437e-8f58-f4c1f3efc97b",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "5deaa50f-e549-4935-a794-780d175bb10f"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
