@@ -17,11 +17,11 @@ if (charselect == 1)
     sprite_index = spr_player_superdash
     image_speed = 0.35
 }
-if (charselect == 2)
+/*if (charselect == 2)
 {
     sprite_index = spr_player2_superdash
     image_speed = 0.35
-}
+}*/
 if (charselect == 1)
 {
     if ((place_meeting((x + 1), y, obj_wall) && image_xscale == 1) || (place_meeting((x - 1), y, obj_wall) && image_xscale == -1))
@@ -63,7 +63,7 @@ if (charselect == 1)
         sprite_index = spr_player_superdash
     }
 }
-if (charselect == 2)
+/*if (charselect == 2)
 {
     if ((place_meeting((x + 1), y, obj_wall) && image_xscale == 1) || (place_meeting((x - 1), y, obj_wall) && image_xscale == -1))
     {
@@ -102,7 +102,7 @@ if (charselect == 2)
         vsp = 0
         sprite_index = spr_player2_superdash
     }
-}
+}*/
 if (key_down && place_meeting(x, (y + 1), obj_wall))
 {
     state = 25
@@ -144,7 +144,7 @@ if place_meeting(x, (y + 1), obj_spring)
     superdashing = 0
     mach2 = 0
 }
-if (sprite_index == spr_player_superdash || sprite_index == spr_player2_superdash)
+if (sprite_index == spr_player_superdash)
 {
     if ((!instance_exists(obj_dashcloudeffect)) && place_meeting(x, (y + 1), obj_wall))
         instance_create(x, y, obj_dashcloudeffect)

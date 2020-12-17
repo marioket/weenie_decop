@@ -3,8 +3,8 @@ movespeed = 2
 move = (key_left + key_right)
 if (charselect == 1)
     sprite_index = spr_player_climb
-if (charselect == 2)
-    sprite_index = spr_player2_climb
+//if (charselect == 2)
+    //sprite_index = spr_player2_climb
 image_speed = 0
 hsp = 0
 vsp = 0

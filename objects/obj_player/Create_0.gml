@@ -1,3 +1,4 @@
+depth = -9999999
 global.P_System = part_system_create()
 global.Particle1 = part_type_create()
 part_type_sprite(global.Particle1, 7, 0, 0, 1)
@@ -26,7 +27,7 @@ part_type_speed(global.Particle3, 10, 10, 0.1, 0)
 part_type_direction(global.Particle3, 0, 360, 1, 1)
 part_type_orientation(global.Particle3, 0, 360, 1, 1, 1)
 part_type_life(global.Particle3, 1, 20)
-global.player_hp = 3
+global.player_hp = 7
 global.player_rage = 0
 global.player_saltshaker = 0
 global.player_corndog = 0
@@ -81,7 +82,7 @@ superdashing = 0
 mach2 = 0
 wall_jumping = 0
 super_timer = 200
-show_gui = 0
+show_gui = 1
 hurted = 0
 input_buffer_walljump = 15
 input_buffer_jump = 5

@@ -19,7 +19,7 @@ with (obj_player)
             else if (global.player_hp == 1)
                 draw_sprite(spr_player_HP, 12, 100, 100)
         }
-        if (charselect == 2)
+        /*if (charselect == 2)
         {
             if (global.player_hp == 7)
                 draw_sprite(spr_player2_HP, 0, 100, 100)
@@ -51,7 +51,7 @@ with (obj_player)
         else if (global.player_rage == 1)
             draw_sprite(spr_player_RAGE, 1, 100, 100)
         else if (global.player_rage == 0)
-            draw_sprite(spr_player_RAGE, 0, 100, 100)
+            draw_sprite(spr_player_RAGE, 0, 100, 100)*/
     }
     draw_text(10, 10, state)
 }
