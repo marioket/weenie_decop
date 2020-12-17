@@ -123,7 +123,7 @@ if (key_attack && (!key_up) && (!key_down) && double_jump == 0)
         if (charselect == 1)
         {
             if (dashAnim == 1)
-                sprite_index = choose(95, 94, 93)
+                sprite_index = choose(spr_player_attackS, spr_player_attackS2, spr_player_attackS3)
             else if (dashAnim == 0)
                 sprite_index = spr_player_dashattack
         }
