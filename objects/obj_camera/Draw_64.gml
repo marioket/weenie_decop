@@ -1,3 +1,4 @@
+display_set_gui_size(960, 540)
 if (obj_player.show_gui == 1)
 {
     draw_set_color(c_white)
