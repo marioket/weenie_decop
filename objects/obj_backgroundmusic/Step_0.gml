@@ -1,4 +1,4 @@
-if (room == room0 && (!audio_is_playing(mu_fryboys)))
+if (room == fry_boys1 && (!audio_is_playing(mu_fryboys)))
 {
 	audio_stop_all()
     audio_play_sound(mu_fryboys, -1, true)
