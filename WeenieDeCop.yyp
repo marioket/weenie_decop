@@ -1519,6 +1519,14 @@
             }
         },
         {
+            "Key": "8796d353-fb72-4506-a972-1d58429f8989",
+            "Value": {
+                "id": "2d600fb8-0da5-4e79-a469-a67eb79a41b9",
+                "resourcePath": "rooms\\fry_boys1\\fry_boys1.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "8910adfd-3fbd-4121-bb5c-5161447d7016",
             "Value": {
                 "id": "198d67b7-0ab1-4629-966a-74743a6722ff",
@@ -2786,7 +2794,7 @@
             "Key": "ef79aecc-5551-4644-8d06-af75bc5508b0",
             "Value": {
                 "id": "fecb57bf-f9f8-4aaa-9f64-efea3a00d9ba",
-                "resourcePath": "rooms\\room0\\room0.yy",
+                "resourcePath": "rooms\\test_room\\test_room.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -2980,6 +2988,14 @@
                 "id": "f60c4d70-938a-49f9-9867-c4ac99c87145",
                 "resourcePath": "scripts\\scr_player_superattack\\scr_player_superattack.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "fed5a87b-447b-4d89-bd0e-0b2cc7bd7480",
+            "Value": {
+                "id": "b2d3a434-d5ed-401e-9fa9-b960f722c0b9",
+                "resourcePath": "sprites\\bg_fryboys1\\bg_fryboys1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
