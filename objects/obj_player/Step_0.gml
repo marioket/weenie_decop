@@ -119,22 +119,26 @@ switch state
         break
 }
 
-//instance_deactivate_all(true)
-//instance_activate_region((view_xview[0] - 64), (view_yview[0] - 64), (view_wview[0] + 128), (view_hview[0] + 128), true)
-//instance_activate_object(obj_checkpoint1)
-//instance_activate_object(obj_checkpoint2)
-//instance_activate_object(obj_player)
-//instance_activate_object(obj_player2)
-//instance_activate_object(obj_disc)
-//instance_activate_object(obj_lava)
-//instance_activate_object(obj_camera)
-//instance_activate_object(obj_hand)
-//instance_activate_object(obj_backgroundmoving)
-//instance_activate_object(obj_wall)
-//instance_activate_object(obj_debris1)
-//instance_activate_object(obj_debris2)
-//instance_activate_object(global.P_System)
-//instance_activate_object(global.Particle1)
+instance_deactivate_all(true)
+var vx = camera_get_view_x(view_camera[0]);
+var vy = camera_get_view_y(view_camera[0]);
+var vw = camera_get_view_width(view_camera[0]);
+var vh = camera_get_view_height(view_camera[0]);
+instance_activate_region(vx , vy , vw , vh , true);
+instance_activate_object(obj_checkpoint1)
+instance_activate_object(obj_checkpoint2)
+instance_activate_object(obj_player)
+instance_activate_object(obj_player2)
+instance_activate_object(obj_disc)
+instance_activate_object(obj_lava)
+instance_activate_object(obj_camera)
+instance_activate_object(obj_hand)
+instance_activate_object(obj_backgroundmoving)
+instance_activate_object(obj_wall)
+instance_activate_object(obj_debris1)
+instance_activate_object(obj_debris2)
+instance_activate_object(global.P_System)
+instance_activate_object(global.Particle1)
 
 
 

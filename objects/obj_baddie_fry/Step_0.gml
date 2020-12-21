@@ -5,9 +5,13 @@ if (dying == 0)
 {
     sprite_index = spr_baddie_fry
     hsp = (image_xscale * movespeed)
-    if (place_meeting((x + 1), y, obj_wall) && (image_xscale == 1))
+    if (place_meeting((x + 8), y, obj_wall) && (image_xscale == 1))
         image_xscale = -1
-    if (place_meeting((x - 1), y, obj_wall) && (image_xscale == -1))
+    if (place_meeting((x - 8), y, obj_wall) && (image_xscale == -1))
+        image_xscale = 1
+	if (!place_meeting((x + 15), y + 31, obj_wall) && (image_xscale == 1))
+        image_xscale = -1
+    if (!place_meeting((x - 15), y + 31, obj_wall) && (image_xscale == -1))
         image_xscale = 1
 }
 if (dying == 1)
