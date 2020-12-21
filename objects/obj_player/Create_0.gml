@@ -95,5 +95,5 @@ global.p1charselect = 0
 global.multiplayer = 0
 finger = 0
 flash = 0
-
+global.sfx = 0
 

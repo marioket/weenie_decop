@@ -135,6 +135,9 @@ switch state
 //instance_activate_object(obj_debris2)
 //instance_activate_object(global.P_System)
 //instance_activate_object(global.Particle1)
+
+
+
 if (inv_frames == 1)
     image_alpha = 0.5
 else

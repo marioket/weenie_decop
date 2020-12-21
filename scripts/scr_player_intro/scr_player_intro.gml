@@ -7,8 +7,8 @@ if (vsp < 12)
 hsp = 0
 if (charselect == 1)
     sprite_index = spr_player_intro
-if (charselect == 2)
-    sprite_index = spr_player2_intro
-if ((sprite_index == spr_player2_intro || sprite_index == spr_player_intro) && floor(image_index) == 22)
+//if (charselect == 2)
+    //sprite_index = spr_player2_intro
+if /*((sprite_index == spr_player2_intro || */((sprite_index == spr_player_intro) && floor(image_index) == 22)
     state = 0
 scr_collideandmove()

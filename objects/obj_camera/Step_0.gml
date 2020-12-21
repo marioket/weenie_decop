@@ -1,5 +1,8 @@
+//scr_getinput()
 x = obj_player.x
 y = obj_player.y
+
+
 if (bosscamera == 1)
 {
     view_xview[0] = clamp(view_xview[0], 0, (room_width - view_wview[0]))
