@@ -25,6 +25,8 @@ if (place_meeting((x + 1), y, obj_wall) && (image_xscale == 1))
         instance_create(x, y, obj_hurteffect)
         obj_camera.shake = 1
         obj_camera.alarm[0] = 10
+		with (instance_create(x, y, obj_baddie_fry))
+            image_xscale = other.image_xscale
     }
 }
 if (place_meeting((x - 1), y, obj_wall) && (image_xscale == -1))
@@ -40,6 +42,8 @@ if (place_meeting((x - 1), y, obj_wall) && (image_xscale == -1))
         instance_create(x, y, obj_hurteffect)
         obj_camera.shake = 1
         obj_camera.alarm[0] = 10
+		with (instance_create(x, y, obj_baddie_fry))
+            image_xscale = other.image_xscale
     }
 }
 if (dying == 1)
